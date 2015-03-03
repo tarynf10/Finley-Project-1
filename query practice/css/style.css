@@ -1,4 +1,4 @@
-* {
+/** {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
@@ -12,4 +12,23 @@
 	position: absolute;
 transform: translateX(-50%);
 transform: translateY(100%);
+}*/
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	}
+
+$( "#date" ).datepicker();
+
+	/*.bubble{
+	background-color: #fc0;
+	border-radius: 50%;
+	width: 5px;
+	height: 5px;
+	position: absolute;
+	transform: translateX(-50%);
+	transform: translateY(100%);*/
 }
+
